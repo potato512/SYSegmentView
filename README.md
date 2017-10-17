@@ -2,7 +2,7 @@
 多种按钮样式（带图标筛选按钮视图、多按钮选择滚动视图……）
 
 
-#多选按钮视图控件
+# 多选按钮视图控件
 ![moreButton.gif](./images/moreButton.gif)
 
 ``` javascript
