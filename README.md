@@ -1,6 +1,9 @@
 # SYButtonView
 多种按钮样式（带图标筛选按钮视图、多按钮选择滚动视图……）
 
+# 使用介绍
+自动导入：使用命令pod 'SYSegmentView'导入到项目中
+手动导入：或下载源码后，将源码添加到项目中
 
 # 多选按钮视图控件
 ![moreButton.gif](./images/moreButton.gif)
