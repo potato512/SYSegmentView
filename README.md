@@ -1,9 +1,9 @@
-# SYButtonView
+# SYSegmentView
 多种按钮样式（带图标筛选按钮视图、多按钮选择滚动视图……）
 
 # 使用介绍
-自动导入：使用命令pod 'SYSegmentView'导入到项目中
-手动导入：或下载源码后，将源码添加到项目中
+* 自动导入：使用命令pod 'SYSegmentView'导入到项目中
+* 手动导入：或下载源码后，将源码添加到项目中
 
 # 多选按钮视图控件
 ![moreButton.gif](./images/moreButton.gif)
@@ -19,7 +19,7 @@
 // 实例化
 NSArray *titles = @[@"精选", @"我的直播间", @"关注", @"视频购", @"社区", @"好东西", @"生活", @"数码", @"亲子", @"风尚", @"美食"];
 //
-segmentView = [[SYSegmentView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, 50.0)];
+SYSegmentView *segmentView = [[SYSegmentView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, 50.0)];
 [self.view addSubview:segmentView];
 segmentView.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.2];
 segmentView.titles = titles;
