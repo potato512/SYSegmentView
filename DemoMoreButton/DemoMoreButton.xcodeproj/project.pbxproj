@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A733C19A1EF3E420001C6CB2 /* SYMoreButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = A733C1991EF3E420001C6CB2 /* SYMoreButtonView.m */; };
 		A736AC241EF3BBA800C03DF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A736AC231EF3BBA800C03DF6 /* main.m */; };
 		A736AC271EF3BBA800C03DF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A736AC261EF3BBA800C03DF6 /* AppDelegate.m */; };
 		A736AC2A1EF3BBA800C03DF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A736AC291EF3BBA800C03DF6 /* ViewController.m */; };
@@ -16,6 +15,7 @@
 		A736AC321EF3BBA800C03DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A736AC301EF3BBA800C03DF6 /* LaunchScreen.storyboard */; };
 		A736AC3D1EF3BBA800C03DF6 /* DemoMoreButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A736AC3C1EF3BBA800C03DF6 /* DemoMoreButtonTests.m */; };
 		A736AC481EF3BBA800C03DF6 /* DemoMoreButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A736AC471EF3BBA800C03DF6 /* DemoMoreButtonUITests.m */; };
+		DF7AB4CF244B4C6800DF3789 /* SYSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB4CE244B4C6800DF3789 /* SYSegmentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A733C1981EF3E420001C6CB2 /* SYMoreButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYMoreButtonView.h; sourceTree = "<group>"; };
-		A733C1991EF3E420001C6CB2 /* SYMoreButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYMoreButtonView.m; sourceTree = "<group>"; };
 		A736AC1F1EF3BBA800C03DF6 /* DemoMoreButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMoreButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A736AC231EF3BBA800C03DF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A736AC251EF3BBA800C03DF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		A736AC431EF3BBA800C03DF6 /* DemoMoreButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMoreButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A736AC471EF3BBA800C03DF6 /* DemoMoreButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMoreButtonUITests.m; sourceTree = "<group>"; };
 		A736AC491EF3BBA800C03DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7AB4CD244B4C6800DF3789 /* SYSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSegmentView.h; sourceTree = "<group>"; };
+		DF7AB4CE244B4C6800DF3789 /* SYSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSegmentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,16 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A733C1971EF3E420001C6CB2 /* SYMoreButtonView */ = {
-			isa = PBXGroup;
-			children = (
-				A733C1981EF3E420001C6CB2 /* SYMoreButtonView.h */,
-				A733C1991EF3E420001C6CB2 /* SYMoreButtonView.m */,
-			);
-			name = SYMoreButtonView;
-			path = ../../SYMoreButtonView;
-			sourceTree = "<group>";
-		};
 		A736AC161EF3BBA800C03DF6 = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +108,7 @@
 				A736AC261EF3BBA800C03DF6 /* AppDelegate.m */,
 				A736AC281EF3BBA800C03DF6 /* ViewController.h */,
 				A736AC291EF3BBA800C03DF6 /* ViewController.m */,
-				A733C1971EF3E420001C6CB2 /* SYMoreButtonView */,
+				DF7AB4C9244B4C3600DF3789 /* SYSegmentView */,
 				A736AC221EF3BBA800C03DF6 /* Supporting Files */,
 			);
 			path = DemoMoreButton;
@@ -152,6 +142,16 @@
 				A736AC491EF3BBA800C03DF6 /* Info.plist */,
 			);
 			path = DemoMoreButtonUITests;
+			sourceTree = "<group>";
+		};
+		DF7AB4C9244B4C3600DF3789 /* SYSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB4CD244B4C6800DF3789 /* SYSegmentView.h */,
+				DF7AB4CE244B4C6800DF3789 /* SYSegmentView.m */,
+			);
+			name = SYSegmentView;
+			path = ../../SYSegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +221,8 @@
 				TargetAttributes = {
 					A736AC1E1EF3BBA800C03DF6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9YWJ3PZHZG;
+						ProvisioningStyle = Manual;
 					};
 					A736AC371EF3BBA800C03DF6 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -237,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,9 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A736AC2A1EF3BBA800C03DF6 /* ViewController.m in Sources */,
+				DF7AB4CF244B4C6800DF3789 /* SYSegmentView.m in Sources */,
 				A736AC271EF3BBA800C03DF6 /* AppDelegate.m in Sources */,
 				A736AC241EF3BBA800C03DF6 /* main.m in Sources */,
-				A733C19A1EF3E420001C6CB2 /* SYMoreButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YWJ3PZHZG;
 				INFOPLIST_FILE = DemoMoreButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devZhang.DemoMoreButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byd.DemoMoreButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfileWildcard;
 			};
 			name = Debug;
 		};
@@ -437,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 9YWJ3PZHZG;
 				INFOPLIST_FILE = DemoMoreButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.devZhang.DemoMoreButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byd.DemoMoreButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfileWildcard;
 			};
 			name = Release;
 		};
