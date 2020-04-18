@@ -13,7 +13,7 @@
 ``` javascript
 // 引入头文件
 #import "SYSegmentView.h"
-``` javascript
+``` 
 
 ``` javascript
 // 实例化
